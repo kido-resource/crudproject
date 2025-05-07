@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class DBUtil {
 
-	// DB 연결 함수
+	// Oracle DB 연결 함수
 	public static Connection getConnection() {
 		Connection conn = null;
 		String url = "jdbc:oracle:thin:@192.168.0.54:1521:xe";
